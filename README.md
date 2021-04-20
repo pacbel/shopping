@@ -1,8 +1,8 @@
-####Estrutura de Desenvolvimento Sistema de apoio à TENCO##
+#### Estrutura de Desenvolvimento Sistema de apoio à TENCO##
 
 
 
-####Principais Dependências
+#### Principais Dependências
 
 Microsoft AspNetCore MVC
 
@@ -24,7 +24,7 @@ SQL Server 12
 
 
 
-####Carlos Pacheco
+#### Carlos Pacheco
 
 http://sobre.pacbel.com.br
 
