@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xTj/BtTLBQAeD4F+v5lGYkylZZhIXGLarFcWpMI8qLs5XE1TNBenq614Mwv9KLALsy/775tgiMFZVCoAj3hd3Q==",
+  "success": true,
+  "projectFilePath": "F:\\digitalInnovationOne\\workspace\\shopping\\Orcamento\\Orcamento.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos Pacheco\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

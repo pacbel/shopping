@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dYLF/1OaN8PHAw4U0rTLUvDuFHiwQWru9sMk/Fm/HIoILSMgsXwe9r7ZdmQlbkzwaQw7ZmtKsq+Ds6yVI2nGjg==",
+  "success": true,
+  "projectFilePath": "F:\\digitalInnovationOne\\workspace\\shopping\\Reports\\Reports.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos Pacheco\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

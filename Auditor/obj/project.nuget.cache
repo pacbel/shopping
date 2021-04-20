@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e1wiSZUAmJhIe03av/h8JaGF2Yhd/FqOQQMFBgTrlsGh72QsHDw1JgHot3mEJmjsD3kBLxI3PPTt9H3HQo8Rcg==",
+  "success": true,
+  "projectFilePath": "F:\\digitalInnovationOne\\workspace\\shopping\\Auditor\\Auditor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos Pacheco\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

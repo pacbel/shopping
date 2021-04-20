@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pr+Ud0Nak3A0WBkS48CHGTrjHjmJQ5r4VYHK+XgkPJ452qO7gyLm/tuBv7La3kxW9wQp3oF9gVusledmylyN3g==",
+  "success": true,
+  "projectFilePath": "F:\\digitalInnovationOne\\workspace\\shopping\\Financeiro\\Financeiro.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos Pacheco\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

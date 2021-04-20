@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pNHTM9yEMdwgz2rd1wiyxOkGn6JYG6gWV9UPKilAsGp63Lr66RxR7ChvsxYEWru7DElt4jWpFxkO4B40rDtqtw==",
+  "success": true,
+  "projectFilePath": "F:\\digitalInnovationOne\\workspace\\shopping\\Faturamento\\Faturamento.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos Pacheco\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
