@@ -1,4 +1,4 @@
-#### Estrutura de Desenvolvimento Sistema de apoio à TENCO##
+#### Estrutura de Desenvolvimento Sistema de apoio à TENCO
 
 
 
