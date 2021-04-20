@@ -2,7 +2,7 @@
 
 
 
-#### Principais Dependências
+#### Principais Dependências (Tecnologias Utilizadas)
 
 Microsoft AspNetCore MVC
 
@@ -12,7 +12,7 @@ Microsoft Entity Framework Core SQL Server
 
 Microsoft Entity Framework Core Tools
 
-Fluent Validation
+FluentAssertions
 
 xUnit NET CORE 
 
@@ -22,7 +22,9 @@ Newtonsoft Json
 
 SQL Server 12
 
-
+```sh
+Executar a solução  ./Main/shopping.sln
+```
 
 #### Carlos Pacheco
 

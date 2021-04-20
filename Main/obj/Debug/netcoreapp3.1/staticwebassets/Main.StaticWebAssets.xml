@@ -1,0 +1,8 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/Auditor" Path="F:\digitalInnovationOne\workspace\shopping\Auditor\wwwroot\" />
+  <ContentRoot BasePath="_content/Faturamento" Path="F:\digitalInnovationOne\workspace\shopping\Faturamento\wwwroot\" />
+  <ContentRoot BasePath="_content/Financeiro" Path="F:\digitalInnovationOne\workspace\shopping\Financeiro\wwwroot\" />
+  <ContentRoot BasePath="_content/Orcamento" Path="F:\digitalInnovationOne\workspace\shopping\Orcamento\wwwroot\" />
+  <ContentRoot BasePath="_content/Reports" Path="F:\digitalInnovationOne\workspace\shopping\Reports\wwwroot\" />
+  <ContentRoot BasePath="_content/Tarifas" Path="F:\digitalInnovationOne\workspace\shopping\Tarifas\wwwroot\" />
+</StaticWebAssets>
