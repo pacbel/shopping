@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "LNvEtxL8iuJlMWLXkN5NSTNQFwZCCvgU68vszom16o6TH3YtP/htnI90Y3gybzGeOnFYA4VhPdltGZiBJrIiiw==",
+  "dgSpecHash": "gHbx858nuX/79lqrV8bESaiP59G5eMWyZv4WijYMdgvroPBoOAkj3gbF7QyVEcEZ7CbYT3wUSpIK3eLsPMRnaA==",
   "success": true,
   "projectFilePath": "F:\\digitalInnovationOne\\workspace\\shopping\\domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos Pacheco\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
+    "C:\\Users\\Carlos Pacheco\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512",
+    "C:\\Users\\Carlos Pacheco\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.0.4\\fluentvalidation.aspnetcore.10.0.4.nupkg.sha512",
+    "C:\\Users\\Carlos Pacheco\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.0.4\\fluentvalidation.dependencyinjectionextensions.10.0.4.nupkg.sha512",
+    "C:\\Users\\Carlos Pacheco\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\Carlos Pacheco\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\Carlos Pacheco\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

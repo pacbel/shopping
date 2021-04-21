@@ -1,0 +1,9 @@
+F:\digitalInnovationOne\workspace\shopping\repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+F:\digitalInnovationOne\workspace\shopping\repository\bin\Debug\netcoreapp3.1\Repository.dll
+F:\digitalInnovationOne\workspace\shopping\repository\bin\Debug\netcoreapp3.1\Repository.pdb
+F:\digitalInnovationOne\workspace\shopping\repository\obj\Debug\netcoreapp3.1\Repository.csprojAssemblyReference.cache
+F:\digitalInnovationOne\workspace\shopping\repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+F:\digitalInnovationOne\workspace\shopping\repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+F:\digitalInnovationOne\workspace\shopping\repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+F:\digitalInnovationOne\workspace\shopping\repository\obj\Debug\netcoreapp3.1\Repository.dll
+F:\digitalInnovationOne\workspace\shopping\repository\obj\Debug\netcoreapp3.1\Repository.pdb
