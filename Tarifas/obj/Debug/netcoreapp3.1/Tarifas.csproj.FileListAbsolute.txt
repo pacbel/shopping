@@ -25,7 +25,6 @@ F:\digitalInnovationOne\workspace\shopping\Tarifas\bin\Debug\netcoreapp3.1\Micro
 F:\digitalInnovationOne\workspace\shopping\Tarifas\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 F:\digitalInnovationOne\workspace\shopping\Tarifas\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 F:\digitalInnovationOne\workspace\shopping\Tarifas\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-F:\digitalInnovationOne\workspace\shopping\Tarifas\obj\Debug\netcoreapp3.1\Tarifas.csprojAssemblyReference.cache
 F:\digitalInnovationOne\workspace\shopping\Tarifas\obj\Debug\netcoreapp3.1\Tarifas.AssemblyInfoInputs.cache
 F:\digitalInnovationOne\workspace\shopping\Tarifas\obj\Debug\netcoreapp3.1\Tarifas.AssemblyInfo.cs
 F:\digitalInnovationOne\workspace\shopping\Tarifas\obj\Debug\netcoreapp3.1\Tarifas.csproj.CoreCompileInputs.cache

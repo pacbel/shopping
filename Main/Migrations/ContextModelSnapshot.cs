@@ -142,21 +142,6 @@ namespace Main.Migrations
 
                     b.ToTable("UF");
                 });
-
-            modelBuilder.Entity("Domain.Entities.Shopping", b =>
-                {
-                    b.HasOne("Domain.Entities.Empresa", "Empresa")
-                        .WithMany()
-                        .HasForeignKey("EmpresaId");
-
-                    b.HasOne("Domain.Entities.UF", "Uf")
-                        .WithMany()
-                        .HasForeignKey("UfId");
-
-                    b.Navigation("Empresa");
-
-                    b.Navigation("Uf");
-                });
 #pragma warning restore 612, 618
         }
     }

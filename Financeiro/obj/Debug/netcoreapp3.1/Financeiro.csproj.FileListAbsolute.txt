@@ -25,7 +25,6 @@ F:\digitalInnovationOne\workspace\shopping\Financeiro\bin\Debug\netcoreapp3.1\Mi
 F:\digitalInnovationOne\workspace\shopping\Financeiro\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 F:\digitalInnovationOne\workspace\shopping\Financeiro\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 F:\digitalInnovationOne\workspace\shopping\Financeiro\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-F:\digitalInnovationOne\workspace\shopping\Financeiro\obj\Debug\netcoreapp3.1\Financeiro.csprojAssemblyReference.cache
 F:\digitalInnovationOne\workspace\shopping\Financeiro\obj\Debug\netcoreapp3.1\Financeiro.AssemblyInfoInputs.cache
 F:\digitalInnovationOne\workspace\shopping\Financeiro\obj\Debug\netcoreapp3.1\Financeiro.AssemblyInfo.cs
 F:\digitalInnovationOne\workspace\shopping\Financeiro\obj\Debug\netcoreapp3.1\Financeiro.csproj.CoreCompileInputs.cache

@@ -25,7 +25,6 @@ F:\digitalInnovationOne\workspace\shopping\PortalDoCliente\bin\Debug\netcoreapp3
 F:\digitalInnovationOne\workspace\shopping\PortalDoCliente\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 F:\digitalInnovationOne\workspace\shopping\PortalDoCliente\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 F:\digitalInnovationOne\workspace\shopping\PortalDoCliente\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-F:\digitalInnovationOne\workspace\shopping\PortalDoCliente\obj\Debug\netcoreapp3.1\PortalDoCliente.csprojAssemblyReference.cache
 F:\digitalInnovationOne\workspace\shopping\PortalDoCliente\obj\Debug\netcoreapp3.1\PortalDoCliente.AssemblyInfoInputs.cache
 F:\digitalInnovationOne\workspace\shopping\PortalDoCliente\obj\Debug\netcoreapp3.1\PortalDoCliente.AssemblyInfo.cs
 F:\digitalInnovationOne\workspace\shopping\PortalDoCliente\obj\Debug\netcoreapp3.1\PortalDoCliente.csproj.CoreCompileInputs.cache

@@ -25,7 +25,6 @@ F:\digitalInnovationOne\workspace\shopping\Fiscal\bin\Debug\netcoreapp3.1\Micros
 F:\digitalInnovationOne\workspace\shopping\Fiscal\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 F:\digitalInnovationOne\workspace\shopping\Fiscal\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 F:\digitalInnovationOne\workspace\shopping\Fiscal\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-F:\digitalInnovationOne\workspace\shopping\Fiscal\obj\Debug\netcoreapp3.1\Fiscal.csprojAssemblyReference.cache
 F:\digitalInnovationOne\workspace\shopping\Fiscal\obj\Debug\netcoreapp3.1\Fiscal.AssemblyInfoInputs.cache
 F:\digitalInnovationOne\workspace\shopping\Fiscal\obj\Debug\netcoreapp3.1\Fiscal.AssemblyInfo.cs
 F:\digitalInnovationOne\workspace\shopping\Fiscal\obj\Debug\netcoreapp3.1\Fiscal.csproj.CoreCompileInputs.cache
