@@ -12,7 +12,7 @@ namespace Main.Models
     {
         public virtual DbSet<Empresa> Empresas { get; set; }
         public virtual DbSet<Shopping> Shoppings { get; set; }
-        
+        public virtual DbSet<IndiceMonetario> Indices { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

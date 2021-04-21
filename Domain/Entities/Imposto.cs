@@ -7,5 +7,6 @@ namespace Domain.Entities
 {
     public class Imposto : Entity
     {
+
     }
 }

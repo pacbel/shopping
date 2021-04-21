@@ -15,8 +15,8 @@ namespace Main.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
+                .HasAnnotation("ProductVersion", "3.1.13")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.5")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("Domain.Entities.Empresa", b =>
@@ -25,8 +25,8 @@ namespace Main.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("Ativo")
-                        .HasColumnType("int");
+                    b.Property<byte>("Ativo")
+                        .HasColumnType("tinyint");
 
                     b.Property<string>("CNPJ")
                         .HasColumnType("nvarchar(max)");
@@ -34,7 +34,7 @@ namespace Main.Migrations
                     b.Property<string>("Cidade")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("DataRegistro")
+                    b.Property<DateTime>("DataLog")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Endereco")
@@ -60,14 +60,37 @@ namespace Main.Migrations
                     b.ToTable("Empresas");
                 });
 
+            modelBuilder.Entity("Domain.Entities.IndiceMonetario", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<byte>("Ativo")
+                        .HasColumnType("tinyint");
+
+                    b.Property<int>("CodBancoCentral")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("DataLog")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("NomeIndice")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Indices");
+                });
+
             modelBuilder.Entity("Domain.Entities.Shopping", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("Ativo")
-                        .HasColumnType("int");
+                    b.Property<byte>("Ativo")
+                        .HasColumnType("tinyint");
 
                     b.Property<string>("Bairro")
                         .HasColumnType("nvarchar(max)");
@@ -84,7 +107,7 @@ namespace Main.Migrations
                     b.Property<string>("Contato")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("DataRegistro")
+                    b.Property<DateTime>("DataLog")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("EmailPrincipal")
@@ -126,10 +149,10 @@ namespace Main.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("Ativo")
-                        .HasColumnType("int");
+                    b.Property<byte>("Ativo")
+                        .HasColumnType("tinyint");
 
-                    b.Property<DateTime>("DataRegistro")
+                    b.Property<DateTime>("DataLog")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Descricao")
@@ -141,6 +164,17 @@ namespace Main.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("UF");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Shopping", b =>
+                {
+                    b.HasOne("Domain.Entities.Empresa", "Empresa")
+                        .WithMany()
+                        .HasForeignKey("EmpresaId");
+
+                    b.HasOne("Domain.Entities.UF", "Uf")
+                        .WithMany()
+                        .HasForeignKey("UfId");
                 });
 #pragma warning restore 612, 618
         }

@@ -10,22 +10,22 @@ using Main.Models;
 
 namespace Main.Controllers
 {
-    public class ShoppingsController : Controller
+    public class IndiceMonetariosController : Controller
     {
         private readonly Context _context;
 
-        public ShoppingsController(Context context)
+        public IndiceMonetariosController(Context context)
         {
             _context = context;
         }
 
-        // GET: Shoppings
+        // GET: IndiceMonetarios
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Shoppings.ToListAsync());
+            return View(await _context.Indices.ToListAsync());
         }
 
-        // GET: Shoppings/Details/5
+        // GET: IndiceMonetarios/Details/5
         public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null)
@@ -33,40 +33,40 @@ namespace Main.Controllers
                 return NotFound();
             }
 
-            var shopping = await _context.Shoppings
+            var indiceMonetario = await _context.Indices
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (shopping == null)
+            if (indiceMonetario == null)
             {
                 return NotFound();
             }
 
-            return View(shopping);
+            return View(indiceMonetario);
         }
 
-        // GET: Shoppings/Create
+        // GET: IndiceMonetarios/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Shoppings/Create
+        // POST: IndiceMonetarios/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Sigla,Serial,NomeFantasia,Endereco,Bairro,Cidade,Cep,CNPJ,IncricaoEstadual,EmailPrincipal,Contato,Id,Ativo,DataLog")] Shopping shopping)
+        public async Task<IActionResult> Create([Bind("NomeIndice,CodBancoCentral,Id,Ativo,DataLog")] IndiceMonetario indiceMonetario)
         {
             if (ModelState.IsValid)
             {
-                shopping.Id = Guid.NewGuid();
-                _context.Add(shopping);
+                indiceMonetario.Id = Guid.NewGuid();
+                _context.Add(indiceMonetario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(shopping);
+            return View(indiceMonetario);
         }
 
-        // GET: Shoppings/Edit/5
+        // GET: IndiceMonetarios/Edit/5
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null)
@@ -74,22 +74,22 @@ namespace Main.Controllers
                 return NotFound();
             }
 
-            var shopping = await _context.Shoppings.FindAsync(id);
-            if (shopping == null)
+            var indiceMonetario = await _context.Indices.FindAsync(id);
+            if (indiceMonetario == null)
             {
                 return NotFound();
             }
-            return View(shopping);
+            return View(indiceMonetario);
         }
 
-        // POST: Shoppings/Edit/5
+        // POST: IndiceMonetarios/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("Sigla,Serial,NomeFantasia,Endereco,Bairro,Cidade,Cep,CNPJ,IncricaoEstadual,EmailPrincipal,Contato,Id,Ativo,DataLog")] Shopping shopping)
+        public async Task<IActionResult> Edit(Guid id, [Bind("NomeIndice,CodBancoCentral,Id,Ativo,DataLog")] IndiceMonetario indiceMonetario)
         {
-            if (id != shopping.Id)
+            if (id != indiceMonetario.Id)
             {
                 return NotFound();
             }
@@ -98,12 +98,12 @@ namespace Main.Controllers
             {
                 try
                 {
-                    _context.Update(shopping);
+                    _context.Update(indiceMonetario);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ShoppingExists(shopping.Id))
+                    if (!IndiceMonetarioExists(indiceMonetario.Id))
                     {
                         return NotFound();
                     }
@@ -114,10 +114,10 @@ namespace Main.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(shopping);
+            return View(indiceMonetario);
         }
 
-        // GET: Shoppings/Delete/5
+        // GET: IndiceMonetarios/Delete/5
         public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null)
@@ -125,30 +125,30 @@ namespace Main.Controllers
                 return NotFound();
             }
 
-            var shopping = await _context.Shoppings
+            var indiceMonetario = await _context.Indices
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (shopping == null)
+            if (indiceMonetario == null)
             {
                 return NotFound();
             }
 
-            return View(shopping);
+            return View(indiceMonetario);
         }
 
-        // POST: Shoppings/Delete/5
+        // POST: IndiceMonetarios/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
-            var shopping = await _context.Shoppings.FindAsync(id);
-            _context.Shoppings.Remove(shopping);
+            var indiceMonetario = await _context.Indices.FindAsync(id);
+            _context.Indices.Remove(indiceMonetario);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ShoppingExists(Guid id)
+        private bool IndiceMonetarioExists(Guid id)
         {
-            return _context.Shoppings.Any(e => e.Id == id);
+            return _context.Indices.Any(e => e.Id == id);
         }
     }
 }

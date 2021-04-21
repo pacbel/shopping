@@ -1,0 +1,49 @@
+﻿@model Domain.Entities.IndiceMonetario
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>IndiceMonetario</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NomeIndice" class="control-label"></label>
+                <input asp-for="NomeIndice" class="form-control" />
+                <span asp-validation-for="NomeIndice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodBancoCentral" class="control-label"></label>
+                <input asp-for="CodBancoCentral" class="form-control" />
+                <span asp-validation-for="CodBancoCentral" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Ativo" class="control-label"></label>
+                <input asp-for="Ativo" class="form-control" />
+                <span asp-validation-for="Ativo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataLog" class="control-label"></label>
+                <input asp-for="DataLog" class="form-control" />
+                <span asp-validation-for="DataLog" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

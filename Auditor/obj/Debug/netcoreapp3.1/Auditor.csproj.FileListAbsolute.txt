@@ -25,6 +25,7 @@ F:\digitalInnovationOne\workspace\shopping\Auditor\bin\Debug\netcoreapp3.1\Micro
 F:\digitalInnovationOne\workspace\shopping\Auditor\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 F:\digitalInnovationOne\workspace\shopping\Auditor\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 F:\digitalInnovationOne\workspace\shopping\Auditor\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+F:\digitalInnovationOne\workspace\shopping\Auditor\obj\Debug\netcoreapp3.1\Auditor.csprojAssemblyReference.cache
 F:\digitalInnovationOne\workspace\shopping\Auditor\obj\Debug\netcoreapp3.1\Auditor.AssemblyInfoInputs.cache
 F:\digitalInnovationOne\workspace\shopping\Auditor\obj\Debug\netcoreapp3.1\Auditor.AssemblyInfo.cs
 F:\digitalInnovationOne\workspace\shopping\Auditor\obj\Debug\netcoreapp3.1\Auditor.csproj.CoreCompileInputs.cache
