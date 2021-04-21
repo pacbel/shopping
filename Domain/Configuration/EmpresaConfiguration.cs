@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Domain.Configuration
 {
-    class EmpresaConfiguration
+    public class EmpresaConfiguration
     {
     }
 }

@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Domain.Configuration;
+using Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +10,13 @@ namespace Main.Models
 {
     public class Context : DbContext
     {
-        public virtual DbSet<DomainEntities> entidades { get; set; }
+        public virtual DbSet<Empresa> Empresas { get; set; }
+        public virtual DbSet<Shopping> Shoppings { get; set; }
+        
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(@"Server=.;Database=Shopping;Integrated Security=True");
+        }
     }
 }

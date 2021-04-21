@@ -25,9 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tarifas", "..\Tarifas\Tarif
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reports", "..\Reports\Reports.csproj", "{A33A9038-855E-4E27-A7AA-47BDD1634B63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiscal", "..\Fiscal\Fiscal.csproj", "{CE981CDA-DE29-4DAF-B950-D8E72CCF7D3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiscal", "..\Fiscal\Fiscal.csproj", "{CE981CDA-DE29-4DAF-B950-D8E72CCF7D3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalDoCliente", "..\PortalDoCliente\PortalDoCliente.csproj", "{79AB697A-1838-47CB-907F-36CFC4CBB9E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortalDoCliente", "..\PortalDoCliente\PortalDoCliente.csproj", "{79AB697A-1838-47CB-907F-36CFC4CBB9E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

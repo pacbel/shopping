@@ -21,13 +21,13 @@ using Principal;
 #nullable disable
 #nullable restore
 #line 2 "F:\digitalInnovationOne\workspace\shopping\Main\Views\_ViewImports.cshtml"
-using Principal.Models;
+using Main.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6720db39e48c2a53ce6a0b84a9e2de0c362e4244", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"144a2405775d081e550e9bb19e7e12f993ae2c00", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
