@@ -1,9 +1,9 @@
 F:\digitalInnovationOne\workspace\shopping\domain\bin\Debug\netcoreapp3.1\Domain.deps.json
 F:\digitalInnovationOne\workspace\shopping\domain\bin\Debug\netcoreapp3.1\Domain.dll
 F:\digitalInnovationOne\workspace\shopping\domain\bin\Debug\netcoreapp3.1\Domain.pdb
+F:\digitalInnovationOne\workspace\shopping\domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
 F:\digitalInnovationOne\workspace\shopping\domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
 F:\digitalInnovationOne\workspace\shopping\domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
 F:\digitalInnovationOne\workspace\shopping\domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
 F:\digitalInnovationOne\workspace\shopping\domain\obj\Debug\netcoreapp3.1\Domain.dll
 F:\digitalInnovationOne\workspace\shopping\domain\obj\Debug\netcoreapp3.1\Domain.pdb
-F:\digitalInnovationOne\workspace\shopping\domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
